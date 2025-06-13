@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-pale-cyan: #b7ffff;
+  /* industrial_color1 */
+
+  --color-light-cyan: #6effff;
+  /* industrial_color2 */
+
+  --color-cyan: #38caea;
+  /* industrial_color3 */
+
+  --color-medium-blue: #2e7cb9;
+  /* industrial_color4 */
+
+  --color-dark-blue: #1c53a3;
+  /* industrial_color5 */
+
+  --color-fadeblue: rgba(46, 124, 185, 0.7);
+  /* industrial_color6 */
+
+  --color-fadecyan: rgba(41, 124, 185, 0.4);
+  /* industrial_color7 */
+
+  --color-yellow: #fced70;
+  /* industrial_color10 */
+
+  --color-orange: #e8a112;
+  /* industrial_color11 */
+}

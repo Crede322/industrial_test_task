@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Overview = () => {
   return (
-    <section className="h-[100vh] flex items-center">
+    <section className="h-[100vh] section-divided-bottom flex items-center divider-bottom relative">
       <div className="grid gap-[80px] grid-cols-3 mx-auto w-fit">
         <OverviewCard title="Новейшая версия Minecraft">
           <div className="w-[375px] h-full absolute right-0">
@@ -35,6 +35,7 @@ const Overview = () => {
           </div>
         </OverviewCard>
       </div>
+      <div className="section-divider" />
     </section>
   );
 };

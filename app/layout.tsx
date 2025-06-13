@@ -1,6 +1,8 @@
 import type React from "react";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import "./styles/globals.css";
+import "./styles/typography.css";
+import "./styles/tailwind-components.css";
 import localFont from "next/font/local";
 import Header from "@/components/Header";
 
@@ -29,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} ${minecraftRus.variable} ${minecraftFive.variable} ${minecraftTen.variable} relative`}
       >
-        <div className="relative min-w-full bg-grid min-h-[3000px] bg-[#0f0f0f]">
+        <div className="relative min-w-full bg-grid bg-[#0f0f0f]">
           <Header />
           {children}
         </div>

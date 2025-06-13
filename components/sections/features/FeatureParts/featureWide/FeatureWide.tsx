@@ -20,7 +20,7 @@ const FeatureWide = ({
   filterOff,
 }: Props) => {
   return (
-    <article className="relative px-[28px] py-[20px] min-h-[500px] w-full max-w-[97vw] mx-auto bg-fadecyan gradient-border2 border-[6px] ">
+    <article className="relative px-[28px] py-[20px] w-full max-w-[97vw] mx-auto bg-fadecyan gradient-border2 border-[6px] aspect-[16/5]">
       <h3 className="uppercase title2 text-cyan filter-five-blue text-[2.5rem] mb-[20px] relative z-3">
         {textH3}
       </h3>

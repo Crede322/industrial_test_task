@@ -99,4 +99,8 @@
   .section-features {
     @apply max-w-[1580px] mx-auto overflow-hidden;
   }
+
+  .feature-pair-container {
+    @apply relative w-[97vw] 2xl:w-[1520px] h-[800px] 2xl:h-[500px] flex flex-col gap-[80px] 2xl:flex-row justify-between;
+  }
 }

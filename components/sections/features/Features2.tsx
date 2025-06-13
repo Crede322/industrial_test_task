@@ -5,7 +5,7 @@ const Features2 = () => {
   return (
     <section>
       <div className="section-features flex flex-col items-center gap-[80px] py-[50px]">
-        <div className="w-[1520px] flex justify-between">
+        <div className="feature-pair-container">
           <FeatureLeft imageName="featureSmall5.webp">
             <h2>
               Генераторы

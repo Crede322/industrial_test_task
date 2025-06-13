@@ -3,36 +3,31 @@ import Image from "next/image";
 
 const Overview = () => {
   return (
-    <section className="h-[100vh] section-divided-bottom flex items-center relative">
-      <div className="grid gap-[80px] grid-cols-3 mx-auto w-fit">
+    <section className="min-h-[100vh] py-[20vh] section-divided-bottom flex flex-row items-center relative">
+      <div className="flex flex-col items-center min-[1600px]:grid gap-[80px] grid-cols-1 min-[1600px]:grid-cols-3 mx-auto w-[97vw] min-[1600px]:w-fit">
         <OverviewCard title="Новейшая версия Minecraft">
-          <div className="w-[375px] h-full absolute right-0">
-            <Image
-              src="/images/sectionOverview/overviewCard1.webp"
-              alt="overview card 1"
-              fill
-            />
-          </div>
+          <Image
+            src="/images/sectionOverview/overviewCard1.webp"
+            alt="overview card 1"
+            className="absolute border-2 min-w-[109%] left-1/2 -translate-x-[8%]"
+            fill
+          />
         </OverviewCard>
-        <OverviewCard title="Комфортное прохождение">
-          <div className="w-[438] h-[105%] absolute left-[-41px] top-[-14px] overflow-visible">
-            <Image
-              src="/images/sectionOverview/overviewCard2.webp"
-              alt="overview card 2"
-              className="object-contain"
-              fill
-            />
-          </div>
+        <OverviewCard title="Новейшая версия Minecraft">
+          <Image
+            src="/images/sectionOverview/overviewCard2.webp"
+            alt="overview card 2"
+            className="absolute border-2 min-w-[126%] left-1/2 -translate-x-[9.2%]"
+            fill
+          />
         </OverviewCard>
-        <OverviewCard title="Уникальный мод McTech">
-          <div className="w-[444] h-full absolute left-[-26px] overflow-visible">
-            <Image
-              src="/images/sectionOverview/overviewCard3.webp"
-              alt="overview card 3"
-              className="object-contain"
-              fill
-            />
-          </div>
+        <OverviewCard title="Новейшая версия Minecraft">
+          <Image
+            src="/images/sectionOverview/overviewCard3.webp"
+            alt="overview card 3"
+            className="absolute border-2 min-w-[115%] left-1/2 -translate-x-[0.3%]"
+            fill
+          />
         </OverviewCard>
       </div>
     </section>

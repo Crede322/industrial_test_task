@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --breakpoint-xl: 1600px;
-}
-
 @theme inline {
   --color-pale-cyan: #b7ffff;
   /* industrial_color1 */
@@ -50,4 +46,8 @@
     filter: drop-shadow(0px 0px 50px rgba(41, 124, 185, 0.4));
     animation: glowAnimation 4s infinite;
   }
+}
+
+section {
+  overflow: hidden;
 }

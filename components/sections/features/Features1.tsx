@@ -6,7 +6,7 @@ const Features1 = () => {
   return (
     <section>
       <div className="section-features flex flex-col items-center gap-[80px] py-[50px]">
-        <div className="w-[57vw] 2xl:w-[1520px] flex flex-col gap-[80px] 2xl:flex-row justify-between">
+        <div className="feature-pair-container">
           <FeatureLeft imageName="featureSmall1.webp">
             <h2>
               Электрические
@@ -50,7 +50,7 @@ const Features1 = () => {
           <p>11 ранцев</p>
           <p>27 модулей улучшения</p>
         </FeatureWide>
-        <div className="w-[1520px] flex justify-between">
+        <div className="feature-pair-container">
           <FeatureLeft imageName="featureSmall3.webp">
             <h2>
               Промышленное

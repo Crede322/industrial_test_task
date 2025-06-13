@@ -1,8 +1,9 @@
+import React from "react";
 import { ReactNode } from "react";
 import classes from "../FeatureList.module.css";
 
 interface Props {
-  children: ReactNode;
+  children: ReactNode[];
 }
 
 const FeatureRightList = ({ children }: Props) => {
@@ -10,7 +11,11 @@ const FeatureRightList = ({ children }: Props) => {
     <div
       className={`${classes.feature__list_right} absolute left-[-440px] bottom-[50px] z-5 border-r-[3px] border-[#38caea]`}
     >
-      {children}
+      <ul>
+        {React.Children.map(children, (child, index) => (
+          <li key={index}>{child}</li>
+        ))}
+      </ul>
     </div>
   );
 };

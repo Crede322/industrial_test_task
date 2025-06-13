@@ -6,17 +6,22 @@ import FeatureRightList from "./FeatureRightList";
 interface Props {
   children: ReactNode[];
   imageName: string;
+  filterOff?: boolean;
 }
 
-const FeatureRight = ({ children, imageName }: Props) => {
-  const [title, list] = React.Children.toArray(children);
+const FeatureRight = ({ children, imageName, filterOff }: Props) => {
+  const [title, ...list] = React.Children.toArray(children);
 
   return (
-    <article className="relative flex justify-center border-4 border-light-cyan w-[500px] h-[500px] pt-[50px]">
-      <div className="uppercase relative z-5 text-orange text-shadow-orange title3 text-center">
+    <article className="relative flex justify-center border-4 border-light-cyan w-[500px] h-[500px] pt-[50px] ml-auto mr-0">
+      <div className="uppercase relative z-6 text-orange filter-five-orange title3 text-center">
         {title}
       </div>
-      <div className="absolute inset-0 w-full h-full z-5">
+      <div
+        className={`absolute inset-0 w-full h-full z-5 ${
+          !filterOff ? "glow-blue" : ""
+        }`}
+      >
         <Image
           src={`/images/features/${imageName}`}
           alt="feature"

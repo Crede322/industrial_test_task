@@ -7,11 +7,11 @@
 }
 
 @layer components {
-  .text-shadow-blue {
-    text-shadow: 0 -2px 0px #b7ffff, 0 -4px 0px #1c53a3;
-  }
-  .text-shadow-orange {
-    text-shadow: 0 -2 0px #fced70, 0 -4px 0px #9c3700;
+  /* .text-shadow-dark {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 25);
+  } */
+  .title-digits {
+    font-family: var(--font-teeny-tiny-pixls);
   }
   .title1 {
     @apply text-[4rem] font-bold tracking-[0.1em];
@@ -47,5 +47,18 @@
   .title-button {
     @apply text-[2rem] font-bold leading-normal tracking-[0];
     font-family: var(--font-minecraft-five);
+  }
+
+  .filter-five-blue {
+    filter: url(#five_blue);
+  }
+  .filter-five-orange {
+    filter: url(#five_orange);
+  }
+  .filter-text-common {
+    filter: url(#common);
+  }
+  .filter-text-darkbottom {
+    filter: url(#common);
   }
 }

@@ -11,14 +11,14 @@ const Hero = () => {
           height="338"
         />
         <div className="flex flex-col items-center">
-          <p className="font-[var(--font-minecraft-five)] text-orange text-[40px] mb-[20px]">
+          <p className="title-digits text-shadow-orange text-orange text-[40px] mb-[20px]">
             1:23:59:59
           </p>
-          <button className="button-main text-shadow-blue w-[500] h-[100] text-[2rem] py-[27px] px-[96px] mb-[20px]">
-            Начать играть
+          <button className="button-main w-[500] h-[100] text-[2rem] py-[27px] px-[96px] mb-[20px]">
+            <p className="filter-five-blue">Начать играть</p>
           </button>
-          <button className="button-main uppercase text-orange text-shadow-orange w-[283] h-[56] text-[1.25rem] py-[15px] px-[66px]">
-            Подробнее
+          <button className="button-main uppercase  text-orange text-shadow-orange text-shadow-dark w-[283] h-[56] text-[1.25rem] py-[15px] px-[66px]">
+            <p className="filter-five-orange mt-[-4px]">Подробнее</p>
           </button>
         </div>
       </div>

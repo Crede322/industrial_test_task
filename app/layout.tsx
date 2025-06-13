@@ -5,6 +5,7 @@ import "./styles/typography.css";
 import "./styles/tailwind-components.css";
 import localFont from "next/font/local";
 import Header from "@/components/Header";
+import Filters from "@/components/Filters";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,18 +24,24 @@ const minecraftTen = localFont({
   variable: "--font-minecraft-ten",
 });
 
+const teenyTinyPixls = localFont({
+  src: "../public/fonts/TeenyTinyPixls.ttf",
+  variable: "--font-teeny-tiny-pixls",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ru-RU">
       <body
-        className={`${inter.className} ${minecraftRus.variable} ${minecraftFive.variable} ${minecraftTen.variable} relative`}
+        className={`${inter.className} ${minecraftRus.variable} ${minecraftFive.variable} ${minecraftTen.variable} ${teenyTinyPixls.variable} relative`}
       >
         <div className="relative min-w-full bg-grid bg-[#0f0f0f]">
           <Header />
           {children}
         </div>
+        <Filters />
       </body>
     </html>
   );

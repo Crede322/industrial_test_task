@@ -92,7 +92,7 @@
   z-index: 1;
 }
 
-.list__mobile {
+.list__mobile p {
   font-family: var(--font-minecraft-rus);
   font-size: 1.25rem;
   font-weight: 400;

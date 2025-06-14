@@ -6,6 +6,7 @@ import Features3 from "@/components/sections/features/Features3";
 import Features4 from "@/components/sections/features/Features4";
 import Features5 from "@/components/sections/features/Features5";
 import Features6 from "@/components/sections/features/Features6";
+import Mods from "@/components/sections/mods/Mods";
 
 const Page = () => {
   return (
@@ -18,6 +19,7 @@ const Page = () => {
       <Features4 />
       <Features5 />
       <Features6 />
+      <Mods />
     </main>
   );
 };

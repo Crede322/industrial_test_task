@@ -11,6 +11,24 @@
     border-image: linear-gradient(90deg, #0f939a 0%, #1c53a3 100%) 1;
     box-sizing: border-box;
   }
+  .gradient-border3 {
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+        180deg,
+        #fffa81 0%,
+        #fffa31 35%,
+        #ffb531 35%,
+        #ffb531 65%,
+        #ff6116 65%,
+        #ff6116 100%
+      )
+      1;
+    box-sizing: border-box;
+  }
+
+  .gradient-bg1 {
+    background: linear-gradient(90deg, #0f939a 0%, #1c53a3 100%) 1;
+  }
 
   .bg-grid {
     @apply absolute inset-0 bg-[url('/images/bgGrid.svg')] bg-repeat-y bg-cover z-[3] bg-left;

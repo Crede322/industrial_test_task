@@ -31,6 +31,8 @@
 
   --color-orange: #e8a112;
   /* industrial_color11 */
+
+  --color-fadeorange: rgba(232, 161, 18, 0.4);
 }
 
 @keyframes glowAnimation {

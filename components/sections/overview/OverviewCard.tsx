@@ -13,7 +13,9 @@ const OverviewCard = ({ title, children }: Props) => {
           {children}
         </div>
         <div className="w-[78%] h-[70px] pl-[10px] bg-fadeblue z-10 text-white flex items-center absolute bottom-0 left-1/2 -translate-x-1/2">
-          <p className="font-minecraft-rus filter-text-common">{title}</p>
+          <p className="font-minecraft-rus text-[16px] filter-text-common">
+            {title}
+          </p>
         </div>
       </div>
     </article>

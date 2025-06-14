@@ -3,13 +3,10 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <section className="w-full mx-auto min-h-[1080px] h-[100vh] relative">
-      <div className="h-full flex flex-col gap-[150px] items-center justify-center pt-[250px] pb-[81px] relative z-6 ">
-        <Image
-          src="/images/heroImg.webp"
-          alt="title"
-          width="990"
-          height="338"
-        />
+      <div className="h-full flex flex-col gap-[50px] min-[1024px]:gap-[150px] items-center justify-top min-[640px]:pt-[17vh] min-[1400px]:pt-[250px] pt-[30vh] pb-[81px] relative z-6">
+        <div className="w-[96vw] min-[1024px]:w-[40vw] aspect-[6/3] max-w-[990px] max-h-[338px] relative">
+          <Image src="/images/heroImg.webp" alt="title" fill />
+        </div>
         <div className="flex flex-col items-center">
           <p className="title-digits filter-five-orange text-orange text-[40px] mb-[20px]">
             1:23:59:59

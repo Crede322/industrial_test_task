@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-xs: 30rem;
+}
+
 @theme inline {
   --color-pale-cyan: #b7ffff;
   /* industrial_color1 */

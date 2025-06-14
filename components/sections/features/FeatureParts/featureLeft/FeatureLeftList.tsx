@@ -9,7 +9,7 @@ interface Props {
 const FeatureLeftList = ({ children }: Props) => {
   return (
     <div
-      className={`${classes.feature__list_left} absolute right-[-440px] z-5 border-l-[3px] border-[#38caea]`}
+      className={`${classes.feature__list_left} hidden min-[1150px]:block absolute right-[-440px] z-5 border-l-[3px] border-[#38caea]`}
     >
       <ul>
         {React.Children.map(children, (child, index) => (

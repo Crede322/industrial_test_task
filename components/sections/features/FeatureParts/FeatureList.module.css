@@ -91,3 +91,17 @@
   right: -98px;
   z-index: 1;
 }
+
+.list__mobile {
+  font-family: var(--font-minecraft-rus);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  filter: url(#common);
+}
+
+.list__mobile strong {
+  font-weight: 400;
+  color: cyan;
+}

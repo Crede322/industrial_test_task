@@ -14,9 +14,7 @@ const Mod = ({ imageName, modName }: Props) => {
         width={30}
         alt={modName}
       />
-      <p className="text-[#6effff] text1 filter-text-common text-nowrap">
-        {modName}
-      </p>
+      <p className="text-[#6effff] text1 filter-text-common">{modName}</p>
     </li>
   );
 };

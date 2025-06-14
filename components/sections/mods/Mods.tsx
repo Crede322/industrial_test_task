@@ -43,7 +43,7 @@ const Mods = () => {
             <Mod imageName="Productive_Bees.png" modName="Productive Bees" />
           </ul>
           {/*-------------------------------- сетка 1 ---------------------------------*/}
-          <div className="w-[82%] h-[6px] my-[10px] mx-auto bg-red-500 gradient-bg1" />
+          <div className="w-[82%] h-[6px] my-[10px] mx-auto gradient-bg1" />
           {/*-------------------------------- сетка 2 ---------------------------------*/}
           <ul className="grid grid-cols-1 min-[1360px]:grid-cols-2 grid-rows-18 min-[1360px]:grid-rows-9 grid-flow-col gap-x-[20px] gap-y-[5px] mt-[10px]">
             <Mod

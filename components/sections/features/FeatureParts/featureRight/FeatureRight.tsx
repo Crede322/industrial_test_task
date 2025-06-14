@@ -32,10 +32,7 @@ const FeatureRight = ({ children, imageName, filterOff }: Props) => {
           />
         </div>
         <FeatureRightList>{list}</FeatureRightList>
-        <div className="absolute inset-0 opacity-40 bg-[radial-gradient(circle,transparent_0%,#000_100%)] z-4"></div>
-        <div className="absolute inset-0 opacity-40 bg-[linear-gradient(to_bottom,#931022,transparent)] z-3"></div>
-        <div className="absolute inset-0 opacity-100 bg-[linear-gradient(to_top,#180526,transparent)] z-2"></div>
-        <div className="absolute inset-0 opacity-40 bg-[#2e7cb9] z-1"></div>
+        <Image src="/images/featureBg.svg" fill alt="" />
       </article>
       <FeatureListMobile>{list}</FeatureListMobile>
     </div>

@@ -47,10 +47,26 @@
   }
 }
 
+@keyframes heartAnimation {
+  0% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(0);
+    filter: drop-shadow(0px 0px 50px rgba(41, 124, 185, 0.5));
+  }
+  100% {
+    transform: translateY(-40px);
+  }
+}
+
 @layer components {
   .glow-blue {
     filter: drop-shadow(0px 0px 50px rgba(41, 124, 185, 0.4));
     animation: glowAnimation 4s infinite;
+  }
+  .heart-animation {
+    animation: heartAnimation 4s infinite;
   }
 }
 

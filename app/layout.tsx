@@ -6,6 +6,7 @@ import "./styles/tailwind-components.css";
 import localFont from "next/font/local";
 import Header from "@/components/Header";
 import Filters from "@/components/Filters";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -40,6 +41,7 @@ export default function RootLayout({
         <div className="relative min-w-full bg-grid bg-[#0f0f0f]">
           <Header />
           {children}
+          <Footer />
         </div>
         <Filters />
       </body>

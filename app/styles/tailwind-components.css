@@ -29,6 +29,9 @@
   .gradient-bg1 {
     background: linear-gradient(90deg, #0f939a 0%, #1c53a3 100%) 1;
   }
+  .gradient-bg2 {
+    background: linear-gradient(transparent 0%, rgba(46, 124, 185, 0.7) 100%) 1;
+  }
 
   .bg-grid {
     @apply absolute inset-0 bg-[url('/images/bgGrid.svg')] bg-repeat-y bg-cover z-[3] bg-left;
@@ -37,24 +40,24 @@
   }
 
   /* header */
-  .header_ul li {
+  .row_links li {
     position: relative;
   }
 
-  .header_ul li:hover {
+  .row_links li:hover {
     color: #e8a112;
   }
 
-  .header-link {
+  .link {
     transition: filter 3s;
     filter: url(#five_blue);
   }
 
-  .header_ul li:hover .header-link {
+  .row_links li:hover .link {
     filter: url(#five_orange);
   }
 
-  .header_ul li::after {
+  .row_links li::after {
     content: "";
     opacity: 0;
     width: 110%;
@@ -68,7 +71,7 @@
     transition: opacity 0.3s;
   }
 
-  .header_ul li:hover::after {
+  .row_links li:hover::after {
     opacity: 1;
   }
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 const Overview = () => {
   return (
     <section className="min-h-[100vh] py-[20vh] section-divided-bottom flex flex-row items-center relative">
-      <div className="flex flex-col items-center min-[1220px]:grid gap-[80px] grid-cols-1 min-[1220px]:grid-cols-3 mx-auto w-[97vw] min-[1220px]:w-[1210px] max-w-[1210px]">
+      <div className="flex flex-col items-center gap-y-[40px] min-[1220px]:grid grid-cols-1 min-[1220px]:grid-cols-3 mx-auto w-[97vw] min-[1220px]:w-[1400px] max-w-[1400px]">
         <OverviewCard title="Новейшая версия Minecraft">
           <Image
             src="/images/sectionOverview/overviewCard1.webp"

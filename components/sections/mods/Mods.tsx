@@ -5,26 +5,27 @@ const Mods = () => {
   return (
     <div>
       <section className="min-h-[100vh] py-[110px]">
-        <div className="mx-auto border-l-[5px] w-[1315px] border-r-[5px] h-[860px] px-[5px] border-white">
+        <div className="mx-auto border-l-[5px] w-[97vw] min-[1360px]:w-[1315px] border-r-[5px] h-fit px-[5px] border-white">
           <div className="border-[5px] h-[70px] mb-[4px] gradient-border2 bg-fadecyan flex items-center pl-[24px] title3">
-            <p className="filter-five-orange text-orange">
+            <p className="filter-five-orange text-orange text-[clamp(1.4rem,_4vw,_2.5rem)]">
               модификации сервера
             </p>
           </div>
           <div className="border-[5px] h-[100px] gradient-border3 bg-fadeorange flex items-center justify-center">
-            <div className="flex gap-[75px] w-[51%]">
-              <Image
-                src="/images/helmet.png"
-                width={62}
-                height={62}
-                alt="иллюстрация модлистов сервера"
-              />
+            <div className="flex items-center gap-[1%] min-[360px]:gap-[3%] min-[420px]:gap-[10%] min-[768px]:gap-[75px] w-[95%] min-[460px]:w-[80%] min-[1000px]:w-[51%]">
+              <div className="relative h-[62px] w-[62px]">
+                <Image
+                  src="/images/helmet.png"
+                  fill
+                  alt="иллюстрация модлистов сервера"
+                />
+              </div>
               <p className="filter-five-orange text-orange heading-mods">
                 McTechnologies
               </p>
             </div>
           </div>
-          <ul className="grid grid-cols-2 grid-rows-3 grid-flow-col gap-x-[20px] gap-y-[5px] mt-[10px]">
+          <ul className="grid grid-cols-1 grid-rows-6 min-[1360px]:grid-cols-2 min-[1360px]:grid-rows-3 grid-flow-col gap-x-[20px] gap-y-[5px] mt-[10px]">
             <Mod imageName="Just_hammers.png" modName="JustHammers" />
             <Mod
               imageName="Applied_Energistics_2.webp"
@@ -44,7 +45,7 @@ const Mods = () => {
           {/*-------------------------------- сетка 1 ---------------------------------*/}
           <div className="w-[82%] h-[6px] my-[10px] mx-auto bg-red-500 gradient-bg1" />
           {/*-------------------------------- сетка 2 ---------------------------------*/}
-          <ul className="grid grid-cols-2 grid-rows-9 grid-flow-col gap-x-[20px] gap-y-[5px] mt-[10px]">
+          <ul className="grid grid-cols-1 min-[1360px]:grid-cols-2 grid-rows-18 min-[1360px]:grid-rows-9 grid-flow-col gap-x-[20px] gap-y-[5px] mt-[10px]">
             <Mod
               imageName="Yuushya_Townscape.png"
               modName="Yuushya Townscape"

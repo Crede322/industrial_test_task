@@ -14,9 +14,11 @@ const Hero = () => {
           <p className="title-digits filter-five-orange text-orange text-[40px] mb-[20px]">
             1:23:59:59
           </p>
-          <button className="button-main max-w-[90vw] w-[500] h-[100] text-[2rem] py-[27px] min-[768px]:px-[96px] mb-[20px]">
-            <p className="filter-five-blue">Начать играть</p>
-          </button>
+          <a target="_blank" href="https://mcskill.net/start">
+            <button className="button-main max-w-[90vw] w-[500] h-[100] text-[2rem] py-[27px] min-[768px]:px-[96px] mb-[20px]">
+              <p className="filter-five-blue">Начать играть</p>
+            </button>
+          </a>
           <button className="button-main uppercase  text-orange text-shadow-orange text-shadow-dark w-[283] h-[56] text-[1.25rem] py-[15px] px-[66px]">
             <p className="filter-five-orange mt-[-4px]">Подробнее</p>
           </button>

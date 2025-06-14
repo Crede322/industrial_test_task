@@ -43,7 +43,7 @@
     font-family: var(--font-minecraft-rus);
   }
   .title-footer {
-    @apply text-[3.8rem] font-bold leading-[62px] tracking-[0];
+    @apply text-[2.5rem] leading-[62px] tracking-[1px];
     font-family: var(--font-minecraft-ten);
   }
 

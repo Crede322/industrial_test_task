@@ -7,7 +7,7 @@ const ActionBar = () => {
   };
 
   return (
-    <div className="w-full max-w-[97vw] min-[1840px]:max-w-[1820px] mx-auto flex justify-between sticky top-[88vh] z-10 pointer-events-none">
+    <div className="w-full max-w-[97vw] min-[1840px]:max-w-[1820px] mx-auto flex gap-[20px] min-[768px]:flex-row flex-col justify-between items-end min-[768px]:items-center min-[768px] sticky top-[80vh] min-[768px]:top-[88vh] z-10 pointer-events-none">
       <button onClick={handleScroll} className="actionbar-button button-main">
         <p>Наверх</p>
       </button>

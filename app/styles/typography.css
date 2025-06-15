@@ -29,7 +29,6 @@
     @apply text-[1.5rem] font-bold leading-[37px] tracking-[0.1em];
     font-family: var(--font-minecraft-five);
   }
-
   .text1 {
     @apply text-[1.25rem] font-normal leading-normal tracking-[0];
     font-family: var(--font-minecraft-rus);
@@ -46,7 +45,6 @@
     @apply text-[2.5rem] leading-[62px] tracking-[1px];
     font-family: var(--font-minecraft-ten);
   }
-
   .title-button {
     @apply text-[2rem] font-bold leading-normal tracking-[0];
     font-family: var(--font-minecraft-five);

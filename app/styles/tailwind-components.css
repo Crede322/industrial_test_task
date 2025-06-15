@@ -91,7 +91,6 @@
     background-color: rgba(46, 124, 185, 0.4);
     border: 3px solid transparent;
     border-image: linear-gradient(90deg, #0f939a 0%, #1c53a3 100%) 1;
-    box-sizing: border-box;
     cursor: pointer;
 
     transition: transform 0.2s, background-color 0.2s, border-image 0.2s;
@@ -111,6 +110,17 @@
   }
   .button-details:hover {
     transform: translateY(4px);
+  }
+
+  /* Actionbar */
+  .actionbar-button {
+    @apply px-[15px] py-[6px] flex justify-center items-center;
+    font-family: var(--font-minecraft-five);
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .actionbar-button P {
+    filter: url(#five_blue);
   }
 
   .section-divider {

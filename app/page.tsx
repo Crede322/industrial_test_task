@@ -7,19 +7,26 @@ import Features4 from "@/components/sections/features/Features4";
 import Features5 from "@/components/sections/features/Features5";
 import Features6 from "@/components/sections/features/Features6";
 import Mods from "@/components/sections/mods/Mods";
+import ActionBar from "@/components/ActionBar";
 
 const Page = () => {
   return (
     <main>
       <Hero />
       <Overview />
-      <Features1 />
-      <Features2 />
-      <Features3 />
-      <Features4 />
-      <Features5 />
-      <Features6 />
-      <Mods />
+      <div className="relative">
+        <div className="w-full  pt-[12vh]">
+          <ActionBar />
+          <div className="section-divider" />
+          <Features1 />
+          <Features2 />
+          <Features3 />
+          <Features4 />
+          <Features5 />
+          <Features6 />
+          <Mods />
+        </div>
+      </div>
     </main>
   );
 };

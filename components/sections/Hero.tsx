@@ -1,24 +1,26 @@
 import Image from "next/image";
+import HeroButtonDescription from "./hero/HeroButtonDescription";
+import HeroCountdown from "./hero/HeroCountdown";
 
 const Hero = () => {
   return (
     <section className="w-full mx-auto min-h-[1080px] h-[100vh] relative">
       <div className="h-full flex flex-col gap-[50px] min-[1024px]:gap-[50px] min-[1600px]:gap-[150px] items-center justify-top min-[640px]:pt-[17vh] min-[1400px]:pt-[250px] pt-[30vh] pb-[81px] relative z-6">
-        <div className="w-[96vw] min-[1024px]:w-[40vw] min-[1600px]:w-[60vw] h-auto  max-w-[990px] max-h-[338px] relative">
+        <div className="w-[96vw] min-[1024px]:w-[40vw] min-[1600px]:w-[60vw] h-auto aspect-[3/1.7] min-[1024px]:aspect-[3/1.1] max-w-[990px] max-h-[338px] relative">
           <Image src="/images/heroImg.webp" alt="title" fill />
         </div>
         <div className="flex flex-col items-center">
-          <p className="title1 text-[2.7rem] filter-five-orange text-orange mb-[20px]">
-            1:23:59:59
-          </p>
-          <a target="_blank" href="https://mcskill.net/start">
-            <button className="button-main button-start max-w-[90vw] w-[500] h-[100] text-[2rem] py-[27px] min-[768px]:px-[96px] mb-[20px]">
+          <HeroCountdown />
+          <a
+            className=" mb-[20px]"
+            target="_blank"
+            href="https://mcskill.net/start"
+          >
+            <button className="button-main button-start max-w-[90vw] w-[500] h-[100] text-[2rem] py-[27px] min-[768px]:px-[96px]">
               <p className="filter-five-blue">Начать играть</p>
             </button>
           </a>
-          <button className="button-main button-details uppercase  text-orange text-shadow-orange text-shadow-dark w-[283] h-[56] text-[1.25rem] py-[15px] px-[66px]">
-            <p className="filter-five-orange mt-[-4px]">Подробнее</p>
-          </button>
+          <HeroButtonDescription />
         </div>
       </div>
       {/* background layers */}

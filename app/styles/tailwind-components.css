@@ -93,6 +93,24 @@
     border-image: linear-gradient(90deg, #0f939a 0%, #1c53a3 100%) 1;
     box-sizing: border-box;
     cursor: pointer;
+
+    transition: transform 0.2s, background-color 0.2s, border-image 0.2s;
+  }
+
+  .button-main:hover {
+    border-image: linear-gradient(90deg, #fced70 0%, #e8a112 100%) 1;
+    background-color: rgba(232, 161, 18, 0.3);
+    color: #e8a112;
+  }
+  .button-main:hover p {
+    filter: url(#five_orange);
+  }
+
+  .button-start:hover {
+    transform: translateY(-4px);
+  }
+  .button-details:hover {
+    transform: translateY(4px);
   }
 
   .section-divider {

@@ -118,6 +118,7 @@
     font-family: var(--font-minecraft-five);
     font-weight: 700;
     font-size: 2rem;
+    pointer-events: all;
   }
   .actionbar-button P {
     filter: url(#five_blue);

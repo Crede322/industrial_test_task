@@ -8,6 +8,7 @@ import Features5 from "@/components/sections/features/Features5";
 import Features6 from "@/components/sections/features/Features6";
 import Mods from "@/components/sections/mods/Mods";
 import ActionBar from "@/components/ActionBar";
+import Outro from "@/components/sections/outro/Outro";
 
 const Page = () => {
   return (
@@ -15,9 +16,9 @@ const Page = () => {
       <Hero />
       <Overview />
       <div className="relative">
-        <div className="w-full  pt-[12vh]">
+        <div className="w-full">
           <ActionBar />
-          <div className="section-divider" />
+          <div className="section-divider mt-[50px]" />
           <Features1 />
           <Features2 />
           <Features3 />
@@ -25,6 +26,7 @@ const Page = () => {
           <Features5 />
           <Features6 />
           <Mods />
+          <Outro />
         </div>
       </div>
     </main>

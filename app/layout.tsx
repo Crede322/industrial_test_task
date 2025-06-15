@@ -41,6 +41,7 @@ export default function RootLayout({
         <div className="relative min-w-full bg-grid bg-[#0f0f0f]">
           <Header />
           {children}
+          <div className="w-full h-[170vh] min-[768px]:h-[150vh] min-[1280px]:h-[125vh] bottom-0 left-0 absolute z-[-1] gradient-bg2 opacity-20" />
           <Footer />
         </div>
         <Filters />

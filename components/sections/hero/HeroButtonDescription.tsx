@@ -3,7 +3,6 @@
 const HeroButtonDescription = () => {
   const handleScroll = () => {
     const sectionOverview = document.getElementById("overview");
-    console.log(sectionOverview);
     sectionOverview?.scrollIntoView({ behavior: "smooth" });
   };
 

@@ -5,7 +5,7 @@ const Overview = () => {
   return (
     <section
       id="overview"
-      className="min-h-[100vh] py-[20vh] flex flex-row items-center relative"
+      className="min-h-[100vh] pt-[5vh] min-[768px]:pt-[20vh] pb-[20px] min-[768px]:py-[20vh] flex flex-row items-center relative"
     >
       <div className="flex flex-col items-center gap-y-[40px] min-[1220px]:grid grid-cols-1 min-[1220px]:grid-cols-3 mx-auto w-[97vw] min-[1220px]:w-[1400px] max-w-[1400px]">
         <OverviewCard title="Новейшая версия Minecraft">

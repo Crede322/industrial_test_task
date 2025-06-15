@@ -9,7 +9,7 @@ const Hero = () => {
       className="w-full mx-auto min-h-[1080px] h-[100vh] relative"
     >
       <div className="h-full flex flex-col gap-[50px] min-[1024px]:gap-[50px] min-[1600px]:gap-[150px] items-center justify-top min-[640px]:pt-[17vh] min-[1400px]:pt-[250px] pt-[30vh] pb-[81px] relative z-6">
-        <div className="w-[96vw] min-[1024px]:w-[40vw] min-[1600px]:w-[60vw] h-auto aspect-[3/1.7] min-[1024px]:aspect-[3/1.1] max-w-[990px] max-h-[338px] relative">
+        <div className="w-[96vw] min-[1024px]:w-[40vw] min-[1600px]:w-[60vw] aspect-[3/1] min-[1024px]:aspect-[3/1] max-w-[990px] max-h-[338px] relative">
           <Image src="/images/heroImg.webp" alt="title" fill />
         </div>
         <div className="flex flex-col items-center">

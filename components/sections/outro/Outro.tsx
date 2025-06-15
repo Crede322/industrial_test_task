@@ -4,8 +4,8 @@ const Outro = () => {
   return (
     <div className="relative overflow-hidden">
       <div className="max-w-[98vw] mx-auto">
-        <div className="w-full h-fit pt-[170px] pb-[40px] max-w-[1850px] mx-auto relative z-1">
-          <div className="w-[300px] max-w-[60vw] aspect-[1/1] relative mx-auto mb-[170px] heart-animation">
+        <div className="w-full h-fit pt-[50px] min-[768px]:pt-[170px] pb-[40px] max-w-[1850px] mx-auto relative z-1">
+          <div className="w-[300px] max-w-[60vw] aspect-[1/1] relative mx-auto mb-[110px] min-[768px]:mb-[170px] heart-animation">
             <Image
               className="rotate-[-45deg]"
               src="images/footerImg.svg"

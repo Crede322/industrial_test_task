@@ -4,7 +4,7 @@ import Mod from "./Mod";
 const Mods = () => {
   return (
     <section>
-      <div className="min-h-[100vh] py-[110px]">
+      <div className="min-h-[100vh] py-[50px] min-[768px]:py-[110px]">
         <div className="mx-auto border-l-[5px] w-[97vw] min-[1360px]:w-[1315px] border-r-[5px] h-fit px-[5px] border-white">
           <div className="border-[5px] h-[70px] mb-[4px] gradient-border2 bg-fadecyan flex items-center pl-[24px] title3">
             <p className="filter-five-orange text-orange text-[clamp(1.4rem,_4vw,_2.5rem)]">

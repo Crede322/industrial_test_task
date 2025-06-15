@@ -7,8 +7,8 @@ import Features4 from "@/components/sections/features/Features4";
 import Features5 from "@/components/sections/features/Features5";
 import Features6 from "@/components/sections/features/Features6";
 import Mods from "@/components/sections/mods/Mods";
-import ActionBar from "@/components/ActionBar";
 import Outro from "@/components/sections/outro/Outro";
+import ActionBar from "@/components/ui/ActionBar";
 
 const Page = () => {
   return (

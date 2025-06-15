@@ -1,0 +1,78 @@
+/* Header.module.css */
+
+.menu_button {
+  height: 56px;
+  width: 56px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu_button .shape {
+  width: 56px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #577fbd;
+  position: absolute;
+  left: 50%;
+  transform-origin: center;
+  transition: transform 0.3s ease, opacity 0.3s ease, top 0.3s ease;
+}
+
+/* Закрытое состояние (бургер) */
+.menu_button_closed .shape:nth-child(1) {
+  top: 20%;
+  transform: translateX(-50%) rotate(0deg);
+}
+
+.menu_button_closed .shape:nth-child(2) {
+  top: 50%;
+  transform: translateX(-50%) rotate(0deg);
+}
+
+.menu_button_closed .shape:nth-child(3) {
+  top: 80%;
+  transform: translateX(-50%) rotate(0deg);
+}
+
+/* Открытое состояние (крестик) */
+.menu_button_open .shape:nth-child(1) {
+  top: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.menu_button_open .shape:nth-child(2) {
+  opacity: 0;
+  transition: none;
+}
+
+.menu_button_open .shape:nth-child(3) {
+  top: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+}
+
+@media (max-width: 1400px) {
+  .menu_button {
+    display: flex;
+  }
+  .menu__on {
+    visibility: visible;
+    transition: opacity 0.2s;
+    opacity: 1;
+    height: fit-content;
+    width: fit-content;
+    right: 0;
+    padding-block: 10px;
+    padding-inline: 24px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, #0f939a 0%, #1c53a3 100%) 1;
+    box-sizing: border-box;
+    background-color: rgba(41, 124, 185, 0.4);
+  }
+  .menu__off {
+    visibility: hidden;
+    opacity: 0;
+  }
+}

@@ -48,7 +48,7 @@ const HeroCountdown = () => {
   const targetDate = new Date("2025-06-17T15:00:00");
 
   return (
-    <div className="min-h-[64.8px] min-w-[310px] w-[310px] mb-[20px]">
+    <div className="min-h-[64.8px] w-full flex justify-center mb-[20px]">
       {mounted && <Countdown date={targetDate} renderer={renderer} />}
     </div>
   );

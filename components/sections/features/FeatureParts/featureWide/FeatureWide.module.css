@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  .textbox h3 {
+    filter: url(#mobile_visible);
+  }
+  .textbox h4 {
+    filter: url(#mobile_visible);
+  }
+}

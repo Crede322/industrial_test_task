@@ -32,18 +32,6 @@
   font-weight: 400;
 }
 
-.feature__list_left::after {
-  content: "";
-  background-color: rgba(41, 124, 185, 0.4);
-  width: 3px;
-  height: 106px;
-  rotate: 121deg;
-  position: absolute;
-  left: -48px;
-  top: -79px;
-  z-index: 1;
-}
-
 /* right */
 
 .feature__list_right ul {
@@ -78,18 +66,6 @@
 .feature__list_right li strong {
   color: cyan;
   font-weight: 400;
-}
-
-.feature__list_right::after {
-  content: "";
-  background-color: rgba(41, 124, 185, 0.4);
-  width: 106px;
-  height: 3px;
-  rotate: -148deg;
-  position: absolute;
-  bottom: -27px;
-  right: -98px;
-  z-index: 1;
 }
 
 .list__mobile p {

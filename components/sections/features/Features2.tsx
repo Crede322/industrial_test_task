@@ -4,7 +4,7 @@ import FeatureRight from "./FeatureParts/featureRight/FeatureRight";
 const Features2 = () => {
   return (
     <section>
-      <div className="section-features flex flex-col items-center gap-[80px] py-[50px]">
+      <div className="section-features">
         <div className="feature-pair-container">
           <FeatureLeft imageName="featureSmall5.webp">
             <h2>
@@ -31,7 +31,6 @@ const Features2 = () => {
           </FeatureRight>
         </div>
       </div>
-      <div className="section-divider" />
     </section>
   );
 };

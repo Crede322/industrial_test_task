@@ -3,7 +3,7 @@ import FeatureWide from "./FeatureParts/featureWide/FeatureWide";
 const Features4 = () => {
   return (
     <section>
-      <div className="section-features flex flex-col items-center gap-[80px] py-[50px]">
+      <div className="section-features">
         <div className="w-[1520px] flex justify-between">
           <FeatureWide
             bgImageName="featureWide2bg.webp"
@@ -18,7 +18,6 @@ const Features4 = () => {
           </FeatureWide>
         </div>
       </div>
-      <div className="section-divider" />
     </section>
   );
 };

@@ -5,7 +5,7 @@ import FeatureWide from "./FeatureParts/featureWide/FeatureWide";
 const Features1 = () => {
   return (
     <section>
-      <div className="section-features flex flex-col items-center gap-[30px] min-[768px]:gap-[80px] py-[50px]">
+      <div className="section-features">
         <div className="feature-pair-container">
           <FeatureLeft imageName="featureSmall1.webp">
             <h2>
@@ -81,7 +81,6 @@ const Features1 = () => {
           </FeatureRight>
         </div>
       </div>
-      <div className="section-divider" />
     </section>
   );
 };

@@ -4,7 +4,7 @@ import "./styles/globals.css";
 import "./styles/typography.css";
 import "./styles/tailwind-components.css";
 import localFont from "next/font/local";
-import Header from "@/components/Header";
+// import Header from "@/components/Header";
 import Filters from "@/components/Filters";
 import Footer from "@/components/Footer";
 
@@ -39,7 +39,7 @@ export default function RootLayout({
         className={`${inter.className} ${minecraftRus.variable} ${minecraftFive.variable} ${minecraftTen.variable} ${teenyTinyPixls.variable} relative`}
       >
         <div className="relative min-w-full bg-grid bg-[#0f0f0f]">
-          <Header />
+          {/* <Header /> */}
           {children}
           <div className="w-full h-[170vh] min-[768px]:h-[150vh] min-[1280px]:h-[125vh] bottom-0 left-0 absolute z-[-1] gradient-bg2 opacity-20" />
           <Footer />

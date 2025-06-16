@@ -9,13 +9,15 @@ interface Props {
 const FeatureRightList = ({ children }: Props) => {
   return (
     <div
-      className={`${classes.feature__list_right} hidden min-[1150px]:block min-[1150px]:absolute left-[-440px] bottom-[50px] z-5 border-r-[3px] border-[#38caea]`}
+      className={`${classes.feature__list_right} hidden min-[1150px]:block min-[1150px]:absolute left-[-433px] bottom-[54px] border-r-[3px] border-[#38caea] z-[-1]`}
     >
-      <ul>
-        {React.Children.map(children, (child, index) => (
-          <li key={index}>{child}</li>
-        ))}
-      </ul>
+      <div className="relative">
+        <ul>
+          {React.Children.map(children, (child, index) => (
+            <li key={index}>{child}</li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

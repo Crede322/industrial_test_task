@@ -154,7 +154,7 @@
 
   /* features section */
   .section-features {
-    @apply max-w-[1580px] mx-auto overflow-hidden flex flex-col items-center gap-[30px] min-[768px]:gap-[30px] pt-[6%] min-[1150px]:pt-[50px] pb-0 min-[1150px]:pb-[50px];
+    @apply max-w-[1580px] mx-auto overflow-hidden flex flex-col items-center gap-[30px] min-[768px]:gap-[30px] pt-[50px] min-[1150px]:pt-[50px] pb-0 min-[1150px]:pb-[50px];
   }
 
   .feature-pair-container {

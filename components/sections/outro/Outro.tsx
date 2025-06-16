@@ -7,7 +7,7 @@ const Outro = () => {
         <div className="w-full h-fit pt-[50px] min-[768px]:pt-[170px] pb-[40px] max-w-[1850px] mx-auto relative z-1">
           <div className="w-[300px] max-w-[60vw] aspect-[1/1] relative mx-auto mb-[110px] min-[768px]:mb-[170px] heart-animation">
             <Image
-              className="rotate-[-45deg]"
+              className="rotate-[-45deg] pixelated select-none"
               src="images/footerImg.svg"
               fill
               alt="next team"

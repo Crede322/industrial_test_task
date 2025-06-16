@@ -22,6 +22,7 @@ const Page = () => {
       <div className="relative">
         <div className="w-full pt-0">
           <ActionBar />
+          <div className="section-divider mt-[40px]" />
           <Features1 />
           <Features2 />
           <Features3 />

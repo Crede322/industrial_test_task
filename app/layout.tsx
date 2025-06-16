@@ -30,6 +30,14 @@ const teenyTinyPixls = localFont({
   variable: "--font-teeny-tiny-pixls",
 });
 
+export const metadata = {
+  title: "McSkill Industrial 1.21.1",
+  description: "McSkill сервер Industrial Minecraft  ",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {

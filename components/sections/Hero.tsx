@@ -25,6 +25,9 @@ const Hero = () => {
           </a>
           <HeroButtonDescription />
         </div>
+        {/* ----------------- hidden h1 ---------------*/}
+        <h1 className="opacity-0">Сервер McSkill Industrial Techno</h1>
+        {/* ----------------- hidden h1 ---------------*/}
       </div>
       {/* background layers */}
       <div className="absolute inset-0 bg-gradient-to-b from-cyan to-transparent opacity-[20%] z-3"></div>

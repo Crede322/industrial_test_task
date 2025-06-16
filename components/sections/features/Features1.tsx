@@ -81,6 +81,7 @@ const Features1 = () => {
           </FeatureRight>
         </div>
       </div>
+      <div className="section-divider mt-[50px] min-[1150px]:mt-0" />
     </section>
   );
 };

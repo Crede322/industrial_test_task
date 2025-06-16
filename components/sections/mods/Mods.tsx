@@ -13,14 +13,14 @@ const Mods = () => {
           </div>
           <div className="border-[5px] h-[100px] gradient-border3 bg-fadeorange flex items-center justify-center">
             <div className="flex items-center gap-[1%] min-[360px]:gap-[3%] min-[420px]:gap-[10%] min-[768px]:gap-[75px] w-[95%] min-[460px]:w-[80%] min-[1000px]:w-[51%]">
-              <div className="relative h-[62px] w-[62px]">
+              <div className="relative h-[62px] w-[62px] hidden min-[460px]:block">
                 <Image
                   src="/images/helmet.png"
                   fill
                   alt="иллюстрация модлистов сервера"
                 />
               </div>
-              <p className="filter-five-orange text-orange heading-mods">
+              <p className="filter-five-orange text-orange heading-mods mx-auto min-[460px]:mx-0">
                 McTechnologies
               </p>
             </div>

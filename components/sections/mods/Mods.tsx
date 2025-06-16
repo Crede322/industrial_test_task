@@ -94,6 +94,7 @@ const Mods = () => {
           </ul>
         </div>
       </div>
+      <div className="section-divider" />
     </section>
   );
 };

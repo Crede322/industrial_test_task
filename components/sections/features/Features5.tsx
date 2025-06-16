@@ -41,6 +41,7 @@ const Features5 = () => {
           </FeatureRight>
         </div>
       </div>
+      <div className="section-divider mt-[50px]" />
     </section>
   );
 };

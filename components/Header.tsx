@@ -13,7 +13,7 @@ const Header = () => {
       <div className="max-w-[1920px] mx-auto h-[100px] flex items-center">
         <Link href="https://mcskill.net">
           <Image
-            src="/images/logo.png"
+            src="/images/logoAnimated.webp"
             width={235}
             height={79}
             className="absolute top-1/2 -translate-y-1/2 ml-[3vw]"

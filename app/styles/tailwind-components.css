@@ -159,6 +159,6 @@
 
   .feature-pair-container {
     /* @apply h-fit relative max-w-[90vw] min-[1520px]:w-[1520px] min-[1080px]:h-[800px] min-[1635px]:h-[500px] flex flex-col gap-[80px] justify-between; */
-    @apply h-fit relative flex flex-col gap-[30px] min-[768px]:gap-[80px] justify-between max-w-[95vw] min-[1600px]:max-w-[1520px] min-[1150px]:h-[800px] min-[1150px]:w-[100%] min-[1680px]:h-fit;
+    @apply h-fit relative flex flex-col gap-[30px] min-[1150px]:gap-[80px] justify-between max-w-[95vw] min-[1600px]:max-w-[1520px] min-[1150px]:h-[800px] min-[1150px]:w-[100%] min-[1680px]:h-fit;
   }
 }

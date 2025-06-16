@@ -5,7 +5,7 @@ import FeatureWide from "./FeatureParts/featureWide/FeatureWide";
 const Features1 = () => {
   return (
     <section>
-      <div className="section-features">
+      <div className="section-features bg-red-500 gap-[30px] min-[1150px]:gap-[60px]">
         <div className="feature-pair-container">
           <FeatureLeft imageName="featureSmall1.webp">
             <h2>

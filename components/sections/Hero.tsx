@@ -8,17 +8,6 @@ const Hero = () => {
       id="hero"
       className="w-full mx-auto min-[1080px]:min-h-[1080px] h-[100vh] relative"
     >
-      <div className="fixed top-[100px] w-[100vw] h-[100px] z-20 flex">
-        <div className="bg-green-500">
-          <Image
-            src="/images/logo.png"
-            width={235}
-            height={79}
-            className="absolute top-1/2 -translate-y-1/2 ml-[3vw]"
-            alt="logo"
-          />
-        </div>
-      </div>
       <div className="h-full flex flex-col gap-[50px] min-[1024px]:gap-[50px] min-[1600px]:gap-[150px] items-center justify-top min-[640px]:pt-[17vh] min-[1400px]:pt-[250px] pt-[30vh] pb-[81px] relative z-6">
         <div className="w-[96vw] min-[1024px]:w-[40vw] min-[1600px]:w-[60vw] aspect-[3/1] min-[1024px]:aspect-[3/1] max-w-[990px] max-h-[338px] relative">
           <Image src="/images/heroImg.webp" alt="title" fill />

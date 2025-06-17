@@ -19,7 +19,7 @@ const Overview = () => {
           </div>
         </OverviewCard>
         <OverviewCard bgImageName="overviewCard2bg.png">
-          <div className="relative h-full transform scale-x-[1.28] scale-y-[1.27] top-[-1.1%] left-[1.5%]">
+          <div className="relative h-full transform scale-x-[1.30] scale-y-[1.28] top-[-1.1%] left-[1.7%]">
             <Image
               src="/images/sectionOverview/overviewCard2fg.svg"
               className="absolute"

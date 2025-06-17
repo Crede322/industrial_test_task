@@ -28,7 +28,7 @@ const Overview = () => {
           <Image
             src="/images/sectionOverview/overviewCard3.webp"
             alt="overview card 3"
-            className="absolute border-2 min-w-[115%] left-1/2 -translate-x-[0.3%]"
+            className="absolute border-2 min-w-[115%] left-1/2 -translate-x-[0.3%] height-[105%]"
             fill
           />
         </OverviewCard>

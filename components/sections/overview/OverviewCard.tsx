@@ -8,7 +8,7 @@ interface Props {
 
 const OverviewCard = ({ children, bgImageName }: Props) => {
   return (
-    <article className="w-[75vw] min-[768px]:w-[50vw] min-[1360px]:w-[350px] aspect-[125/149] relative">
+    <article className="w-[75vw] min-[768px]:w-[50vw] min-[1360px]:min-w-[350px] max-w-[360px] aspect-[125/166] relative">
       <Image
         src={`/images/sectionOverview/${bgImageName}`}
         fill

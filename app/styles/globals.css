@@ -8,6 +8,12 @@ img {
   user-drag: none;
 }
 
+@layer base {
+  * {
+    @apply select-none;
+  }
+}
+
 @layer utilities {
   .select-none {
     -webkit-user-select: none;

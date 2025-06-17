@@ -76,7 +76,7 @@ const Features1 = () => {
               <strong>3</strong> режима работы
             </p>
             <p>
-              <strong>27</strong> типа валют
+              <strong>3</strong> типа валют
             </p>
           </FeatureRight>
         </div>

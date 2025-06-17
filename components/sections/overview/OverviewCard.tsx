@@ -1,23 +1,20 @@
 import { ReactNode } from "react";
+import Image from "next/image";
 
 interface Props {
-  title: string;
   children: ReactNode;
+  bgImageName: string;
 }
 
-const OverviewCard = ({ title, children }: Props) => {
+const OverviewCard = ({ children, bgImageName }: Props) => {
   return (
-    <article className="w-[100%] min-[500px]:w-[60%] min-[830px]:w-[50%] min-[1000px]:w-[40%] min-[1280px]:w-[30%] min-[1220]:min-w-[455px] aspect-[35/38] relative flex justify-center">
-      <div className="border-[2px] border-black h-[100%] w-[78%] z-6">
-        <div className="w-[78%] h-full absolute left-1/2 -translate-x-1/2">
-          {children}
-        </div>
-        <div className="w-[78%] h-[70px] pl-[10px] bg-fadeblue z-10 text-white flex items-center absolute bottom-0 left-1/2 -translate-x-1/2">
-          <p className="font-minecraft-rus text-[16px] filter-text-common">
-            {title}
-          </p>
-        </div>
-      </div>
+    <article className="w-[75vw] min-[768px]:w-[50vw] min-[1360px]:w-[350px] aspect-[125/149] relative">
+      <Image
+        src={`/images/sectionOverview/${bgImageName}`}
+        fill
+        alt={bgImageName}
+      />
+      {children}
     </article>
   );
 };

@@ -7,30 +7,36 @@ const Overview = () => {
       id="overview"
       className="min-h-[100vh] pt-[5vh] min-[768px]:pt-[20vh] pb-[20px] min-[768px]:py-[20vh] flex flex-row items-center relative"
     >
-      <div className="flex flex-col items-center gap-y-[40px] min-[1220px]:grid grid-cols-1 min-[1220px]:grid-cols-3 mx-auto w-[97vw] min-[1220px]:w-[1400px] max-w-[1400px]">
-        <OverviewCard title="Новейшая версия Minecraft">
-          <Image
-            src="/images/sectionOverview/overviewCard1.webp"
-            alt="overview card 1"
-            className="absolute border-2 min-w-[109%] left-1/2 -translate-x-[8%]"
-            fill
-          />
+      <div className="flex flex-col min-[1360px]:flex-row justify-center items-center gap-x-[80px] gap-y-[40px] mx-auto w-[97vw]">
+        <OverviewCard bgImageName="overviewCard1bg.png">
+          <div className="relative w-[10%] right-[9.2%] top-[0.1%] h-full">
+            <Image
+              src="/images/sectionOverview/overviewCard1fg.png"
+              className="absolute"
+              fill
+              alt=""
+            />
+          </div>
         </OverviewCard>
-        <OverviewCard title="Комфортное прохождение">
-          <Image
-            src="/images/sectionOverview/overviewCard2.webp"
-            alt="overview card 2"
-            className="absolute border-2 min-w-[126%] left-1/2 -translate-x-[9.2%]"
-            fill
-          />
+        <OverviewCard bgImageName="overviewCard2bg.png">
+          <div className="relative h-full transform scale-x-[1.28] scale-y-[1.20] top-[-2%] left-[1.5%]">
+            <Image
+              src="/images/sectionOverview/overviewCard2fg.svg"
+              className="absolute"
+              fill
+              alt=""
+            />
+          </div>
         </OverviewCard>
-        <OverviewCard title="Уникальный мод McTech">
-          <Image
-            src="/images/sectionOverview/overviewCard3.webp"
-            alt="overview card 3"
-            className="absolute border-2 min-w-[115%] left-1/2 -translate-x-[0.3%] height-[105%]"
-            fill
-          />
+        <OverviewCard bgImageName="overviewCard3bg.png">
+          <div className="relative w-[10%] left-[99.3%] top-[-0.21%] h-full">
+            <Image
+              src="/images/sectionOverview/overviewCard3fg.png"
+              className="absolute"
+              fill
+              alt=""
+            />
+          </div>
         </OverviewCard>
       </div>
     </section>
